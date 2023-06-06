@@ -30,7 +30,7 @@ export default function Login({ navigation }) {
   return (
     <View style={styles.container}>
       <Image source={backImage} style={styles.backImage} />
-      <view style={styles.whiteSheet} />
+      <View style={styles.whiteSheet} />
       <SafeAreaView style={styles.form}>
         <Text style={styles.title}>Login</Text>
         <TextInput
